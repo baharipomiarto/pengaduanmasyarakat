@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3EFE0;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background: #222222;
+    display: block;
+    height: 100px;
+	border-bottom: solid 2px #434242;
+}
+header h1{
+    margin: 0;
+	padding: 20px 10px 10px 10px;
+	font-size: 36px;
+	font-family: Arial,Helvetica;
+}
+header h1 a, header h1 a:link, header h1 a:visited, header h1 a:active{
+	text-decoration: none;
+	color: #fff;
+}
+h2{
+	text-align: center;
+}
+footer{
+    clear: both;
+    display: block;
+    background: #434242;
+	color: #f2f2f2;
+    height: 50px;
+	text-align: center;
+	padding: 10px;
+}
+td{
+	text-align: left;
+}
+.row {
+  display: flex;
+}
+.kiri {
+  flex: 80%;
+}
+.kanan {
+  flex: 18%;
+  background: #22A39F;
+}
+.kanan a, .kanan a:link, .kanan a:visited, .kanan a:active{
+	text-decoration: none;
+	color: #F3EFE0;
+}
+.tombol{
+	width: 100px;
+	height: 30px;
+	display: block;
+	float: left;
+}
+.inputan{
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+}
+.loginpetugas{
+	margin: 0 auto;
+	width: 40%;
+}
